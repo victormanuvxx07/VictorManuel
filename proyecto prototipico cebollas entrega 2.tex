@@ -1,0 +1,319 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage {setspace}
+\onehalfspacing
+\setlength{\parskip}{1em}
+%------------------------------------------------
+
+
+\title{PRIMERA ENTREGA DEL PROYECTO PROTOTIPICO}
+\author{Cesar Ivan Rodriguez Navarro \and 
+	Victor Manuel De La Cruz \and 
+	Frida Yosselin Zaragoza }
+\begin{document}
+
+\maketitle 
+
+\begin{abstract}
+Plantación De Cebolla en Chihuahua
+\end{abstract}
+
+\section{INDICE}
+\subsection{Región, Sembradío e Información general}
+\subsection{Identificación  De El Problema}
+\subsection{Justificación Del Problema}
+\subsection{Programación}
+\subsection{Ciencia de Datos}
+\subsection{Geometría Analítica}
+\subsection{Matemáticas Discretas}
+\subsection{Administración Empresarial}
+\subsection{Perspectiva de Genero}
+\subsection{Posibles Soluciones Tempranas}
+\subsection{FUENTES CONSULTADAS}
+\newpage
+\begin{center}
+	{\huge \textbf{Región, Sembradío e Información general} }
+\end{center}
+\vspace{1cm} 
+{\large %
+Para esta sección, se seleccionó la región de Chihuahua debido a que es la principal aportadora a la producción de cebolla en México, representando aproximadamente entre el 21 % y el 21.6 % del total nacional, con una producción cercana a las 300,000 toneladas por cosecha.
+
+Este estado es uno de los más importantes en la producción de cebolla, al igual que Zacatecas; sin embargo, dado que Chihuahua genera la mayor cantidad, nos enfocamos en esta región. Aunque una pérdida de 300,000 toneladas pueda parecer pequeña en términos estadísticos, representa un volumen considerable y conlleva pérdidas significativas tanto en ventas como en producción, afectando las ganancias de quienes invierten y cultivan.
+
+Asimismo, se ha observado que el estado de Chihuahua ha sido uno de los más afectados, siendo clasificado por la CONAGUA como zona de "sequía severa". Al analizar la información, resulta evidente el impacto considerable del cambio climático en esta región durante los años comprendidos entre 2020 y 2025.
+
+Cabe destacar que la cebolla requiere aproximadamente cuatro meses para su germinación, lo que puede generar diversos problemas. El proceso de germinación ocurre durante un tercio del año, y el tiempo total hasta la cosecha es de alrededor de cuatro meses. El tamaño de la cebolla puede variar incluso cuando se utilizan semillas de alta calidad, presentándose en cuatro categorías distintas según su tamaño. Estas categorías van desde los cebollines, comúnmente utilizados en taquerías, hasta cebollas de tamaño jumbo, que pueden alcanzar un peso cercano a un kilogramo por unidad. Esta variabilidad puede representar tanto una oportunidad como un desafío, ya que las ganancias fluctúan según el precio y el tipo de cebolla, ya sea la cebolla blanca tradicional, la cebolla morada o el cebollín empleado en la gastronomía local.
+\newpage
+\begin{center}
+	{\huge \textbf{Identificación  De El Problema}}
+\end{center}
+\vspace{1cm} 
+{\large %
+La problemática que enfrentamos se origina principalmente en los efectos del cambio climático que se han manifestado en los últimos años, tomando como referencia el periodo desde 2020 hasta la actualidad. Las lluvias excesivas combinadas con temperaturas que rondan los 32 °C pueden causar daños severos en los cultivos.
+
+Tras investigar el proceso de siembra y basándonos en la experiencia directa de uno de nuestros compañeros, quien cosecha cebolla en su hogar, se ha observado que un cambio climático tan abrupto puede perjudicar y/o provocar enfermedades en las plantaciones. Entre las principales enfermedades que afectan a los cultivos se encuentran:
+
+Mancha púrpura
+Mildiu lanoso
+Raíz rosada
+Podredumbre del cuello
+Fusariosis
+Moho negro
+Estas enfermedades impactan significativamente el rendimiento y causan el deterioro de las raíces durante la cosecha. Para mitigar estos efectos, es común que antes de la siembra se realice una “esterilización” del suelo mediante la aplicación de vitaminas, fungicidas y pesticidas, con el fin de eliminar hongos y prevenir diversas enfermedades.
+
+Cabe destacar que la región de Chihuahua ha sido una de las más afectadas por estos cambios climáticos, presentando un calentamiento acelerado y episodios de sequía severa.
+
+DATOS RELEVANTES PARA FUTUROS CAMBIOS
+\begin{itemize}
+	\usepackage{gensymb}
+	\item \textbf{2019}: Año de transición con un aumento moderado en las temperaturas máximas. El estado mantenía condiciones relativamente estables.
+	\item \textbf{2020}: Se registraron olas de calor intenso y un año extremadamente seco, con sequías severas. Los niveles de las presas disminuyeron aproximadamente entre un 25\% y 30\%.
+	\item \textbf{2021}: Se presentó un cambio radical y preocupante, con nevadas históricas en febrero y fuertes lluvias en verano, lo que permitió una recuperación parcial de los acuíferos.
+	\item \textbf{2022}: Verano marcado por lluvias récord, causando inundaciones y un sobreabasto en las presas, que alcanzaron su capacidad máxima.
+	\item \textbf{2023}: Año más caluroso registrado a nivel global, conocido como “ebullición global”. Se observaron sequías extremas y calor persistente en septiembre.
+	\item \textbf{2024}: Se superaron las temperaturas máximas de 40~\ degree C en varias regiones, con lluvias prolongadas hasta mediados de año.
+	\item \textbf{2025}: Invierno extremo, con temperaturas tan bajas como -23~\degree C en Majalca, seguido de un verano muy caluroso. Se logró una recuperación significativa de las presas, con un aumento aproximado del 136\% en comparación con 2024.
+\end{itemize}
+    \newpage
+	\begin{center}
+		{\huge \textbf{Justificación Del Problema}}
+	\end{center}
+	\vspace{1cm} 
+	{\large %
+Basándonos en lo expuesto anteriormente, si permitimos que se pierda este 21 \%, aunque parezca solo una fracción (21 de cada 100), representa aproximadamente 300,000 toneladas por cosecha o temporada.
+
+Este proyecto podría contribuir a evitar futuras pérdidas y, a su vez, tener un impacto positivo en la situación social y económica del sector agrícola.
+
+Además, la versatilidad del proyecto radica en que no se limita únicamente a la plantación de cebolla; la predicción puede aplicarse a diversas regiones, modificando únicamente los datos y el historial correspondiente de cambio climático de los últimos años.
+
+Otro problema identificado en esta situación es la falta de recursos o estudios dirigidos a las personas involucradas en la actividad agrícola. Sin caer en estereotipos, se observa que muchas de estas personas cuentan con un nivel educativo limitado, en algunos casos solo hasta primaria (como se detallará más adelante). Por ello, hemos identificado dos soluciones principales, además de otras que se implementarán a lo largo del semestre.
+	\newpage
+	\begin{center}
+		{\huge \textbf{Programación}}
+	\end{center}
+	\vspace{1cm} 
+	{\large %
+Hemos identificado la posibilidad de incorporar programación para desarrollar un código y un algoritmo que integren diversas fuentes de información, con el objetivo de crear un modelo altamente preciso para la predicción de lluvias. Este modelo permitirá generar tablas estadísticas y utilizar los datos de manera eficiente.
+
+En esta fase de programación, hemos encontrado una solución potencial orientada a los destinatarios del problema.
+
+Por nuestra parte, hemos decidido iniciar dos proyectos que pueden ser útiles tanto para cultivos a pequeña escala como para cultivos masivos.
+
+El primero consiste en la creación de una aplicación móvil que se actualice diariamente y pueda predecir cambios climáticos severos, incluyendo alertas tempranas para posibles desastres como huracanes, fuertes vientos, inundaciones y lluvias intensas.
+
+El segundo proyecto es una plataforma web con funcionalidades similares, diseñada para optimizar el espacio de almacenamiento y permitir actualizaciones sencillas mediante un botón de recarga (F5).
+
+Adicionalmente, estamos explorando un sistema de riego de bajo consumo y métodos para el ahorro de agua durante períodos de sequía, así como el almacenamiento eficiente de agua en épocas de lluvias excesivas para su uso futuro.
+
+Además, al integrar la programación, hemos encontrado formas de aplicarla en otras áreas, más allá del correcto uso del problema prototípico. Por ejemplo, en la materia de investigación, se puede emplear un código adecuado para el manejo de Big Data, que permita limpiar datos, agregar filtros y optimizar su procesamiento.
+
+Asimismo, podemos desarrollar la mencionada aplicación y crear códigos específicos para matemáticas discretas, tales como tablas de la verdad, datos proporcionados por grafos y las ecuaciones de Gauss, con el fin de mejorar la eficiencia en la toma de datos y obtener resultados más precisos.
+		\newpage
+		\begin{center}
+			{\huge \textbf{Ciencia de Datos}}
+		\end{center}
+		\vspace{1cm} 
+		{\large %
+	Para esta UCA, lo que hicimos fue consultar varias fuentes un poco más directas, aunque aún nos falta obtener información de primera mano. Para ello, realizaremos encuestas en línea y preguntas sobre el ámbito social para poder comprender toda el área de investigación, pasar las respuestas por los debidos filtros y así obtener mejores resultados. Algunas de las fuentes consultadas estarán cerca del final del documento.
+	
+	En esta UCA aprendimos a investigar más allá de lo que la simple vista puede captar; dejamos de solo ver para empezar a observar. El cuestionamiento es fundamental, y eso nos ha ayudado a pulir nuestra forma de investigación. Esto irá mejorando con el tiempo.
+	
+	Justamente, esta área nos ayudará en varios temas, como en la perspectiva de género, ya que es necesario analizar toda el área, incluyendo varios aspectos delicados y más profundos que deben ser considerados.
+	
+	Agregando más información, una de las cosas que acabamos de aprender son las 7 V de las BIG DATA, que nos permiten almacenar datos y diversa información relacionada con nuestro tema, logrando también crear un filtro de datos para su mejora y un rápido entendimiento del problema. La creación de videos y datos que hemos estado haciendo nos ayuda a entender y redactar mejor los problemas planteados.
+	
+	Para lograr lo que trabaja un ANALISTA DE DATOS, justamente lo hemos estado viviendo en carne propia, ya que nosotros mismos somos quienes buscamos, filtramos e investigamos dichos datos para una mejor eficiencia. Cabe resaltar que lo aprendido se podrá demostrar en clases, así como la información aportada por cada integrante del proyecto.
+	
+	El rol de ingeniero y científico de datos lo desarrollamos todos, puesto que cada uno está aportando su granito de arena. Esto se demostrará junto con las siguientes UCAs que se verán a continuación, así como con la creación de una aplicación con mejoras y atractivo visual para los usuarios. Sin embargo, la primera fase de entrega será hacer una página web oficial.
+	
+	Un poco más del papel que desarrollamos como INGENIEROS DE DATOS se demostrará con las fuentes entregadas, experiencias propias y mejoras que se vayan haciendo en el proyecto que se pide y se entregará. En este ámbito, vamos a desarrollar tanto las V de las BIG DATA como los procesos de filtración de datos. Esto lo demostraremos con los enlaces que proporcionaremos de cada dato que hemos obtenido, junto con cada cita en su respectivo formato.
+	
+	\newpage
+	\begin{center}
+		{\huge \textbf{GEOMETRIA ANALITICA} }
+	\end{center}
+	\vspace{1cm} 
+	{\large %
+	En esta materia se incluyen conceptos como vectores y rectas. Hemos pensado en combinarlos con matemáticas discretas y programación, ya que las inclinaciones de las rectas pueden ayudarnos a predecir posibles cambios en futuras estadísticas climáticas.
+	
+	Los vectores representan magnitudes con dirección y sentido, como la velocidad y dirección del viento, lo cual es importante para entender cómo se mueve el clima en diferentes puntos del estado de Chihuahua.
+	
+	Por otro lado, los puntos representan ubicaciones específicas, como estaciones meteorológicas, y al analizar las rectas que conectan estos puntos, podemos identificar diferentes momentos o lugares donde el clima podría cambiar. Así, usando estas herramientas, podemos mejorar la predicción de cambios climáticos en la región.
+			\newpage
+		\begin{center}
+			{\huge \textbf{Matematcas Discretas}}
+		\end{center}
+		\vspace{1cm} 
+		{\large %
+	Con los datos obtenidos, hemos logrado identificar posibles formas de integrarlos en el problema del PP. Para ello, demostraremos lo siguiente en los argumentos:
+	
+	Serie de Gauss:
+	En esta sección, encontramos una manera interesante de implementarla, ya que mediante esta ecuación podemos utilizarla combinada con otros datos, como los provenientes de detectores de humedad, temperatura y otros sensores, junto con la predicción climática y series numéricas de datos. En este punto, se comienza a vincular con la materia de investigación, dado que se emplean datos relacionados con el almacenamiento, la variedad y la veracidad de las Big Data. Estas propiedades pueden aprovecharse mediante sumatorias, y combinadas con programación, permitirían analizar los datos de manera rápida y eficiente, evitando el procesamiento manual uno por uno.
+	
+	Grafos:
+	Al profundizar en el estudio de los grafos, descubrimos que estos se utilizan como una red que conecta las estaciones meteorológicas, similar al mapa que hemos elaborado. Los grafos pueden emplearse para analizar dichos datos y encontrar rutas óptimas para el desplazamiento del viento, considerando además la humedad y otros factores climatológicos relevantes.
+	
+	Tablas de la verdad:
+	En cuanto a las tablas de la verdad, esta área puede integrarse con la programación para utilizar modelos de decisión. Mediante un código adecuado, se podría determinar la mejor respuesta ante los datos proporcionados, optimizando así la toma de decisiones de manera eficiente.
+		
+		\newpage
+	\begin{center}
+		{\huge \textbf{Administración Empresarial}}
+	\end{center}
+	\vspace{1cm} 
+	{\large %
+			Esta materia podría integrarse directamente en la organización y el método de creación de este proyecto, aplicando los conocimientos adquiridos en clase, tales como la dirección, la toma de decisiones, el ámbito humano y otros factores relevantes para definir el rumbo del proyecto.
+			
+			En el ámbito del cultivo, nuestra influencia es limitada debido a la falta de experiencia y a que no somos quienes dirigen el sembradío. Sin embargo, desde nuestra posición en el desarrollo del proyecto, podemos recomendar acciones y sugerir decisiones. Como decimos: “Ponemos las cartas sobre la mesa, ellos eligen cuál jugar”.
+			
+			Al investigar más sobre administración empresarial, encontramos información preocupante relacionada con la realidad social, que involucra la perspectiva de género. En la población laboral se observa el uso de mano de obra barata, llegando incluso a la explotación infantil, ya sea por necesidad o por tradiciones familiares.
+			
+			Además, la administración abarca diversas áreas, tanto humanísticas como generales. Nos enfocamos en la administración aplicada al cultivo de cebolla, ya que, al ser un producto que se extrae directamente de la tierra, el proceso administrativo debe ser riguroso, considerando días específicos y varios procesos organizativos.
+			
+			Un aspecto fundamental de la administración es el valioso recurso humano. La perspectiva de género se encargará de abordar las áreas más sensibles del tema, pero aquí nos centraremos en un aspecto general: los recursos humanos. Este ámbito incluye el cuidado de los trabajadores, la entrega de vestimenta reglamentaria de protección, como guantes, cascos, calzado con casquillo, y otros materiales que son de gran ayuda para la seguridad y bienestar del personal.
+			
+			La administración empresarial también contempla la optimización del trabajo mediante nuevos métodos administrativos, la motivación de los trabajadores, la mejora en la gestión de recursos, la calidad, las ventas y la cooperación entre el equipo. Esto puede incluir compensaciones salariales y ajustes en los horarios para mejorar el rendimiento y la salud de los empleados.
+			
+			Finalmente, con los nuevos aprendizajes, esta unidad curricular podría implementarse mejor en la organización de grupos y compañeros, asignando roles claros como analista, programador y científico de datos, junto con sus respectivos tiempos de descanso para evitar el agotamiento mental y físico. Asimismo, es importante que todos conozcamos un poco sobre las funciones de los demás para poder apoyarnos mutuamente cuando sea necesario.
+			
+		\newpage
+	\begin{center}
+		{\huge \textbf{Perspectiva de Genero}}
+	\end{center}
+	\vspace{1cm} 
+	{\large %
+			En este ámbito se puede abordar el tema desde una perspectiva más humanitaria. Un compañero nos proporcionó información sobre el avance de las mujeres en el sector de la cosecha, junto con estadísticas y novedades relevantes.
+			
+			La información que obtuvimos es la siguiente:
+			En términos generales, el 81\% de la mano de obra está conformada por hombres, de los cuales el 25\% tiene entre 55 y 65 años, mientras que el resto oscila entre los 18 y 45 años.
+			
+			La mayoría de las grandes regiones agrícolas enfrentan un grave problema de abuso hacia quienes realizan labores pesadas, como la plantación y recolección. Existen numerosos testimonios de explotación infantil, donde muchos niños son retirados de la escuela para trabajar por salarios muy bajos, que oscilan entre 100 y 150 pesos por jornadas de 10 a 14 horas.
+			
+			Además, se presentan casos en los que los padres, con el fin de obtener ingresos, envían a sus hijos a trabajar y les quitan el dinero ganado, configurando situaciones de explotación infantil. Estos casos, aunque preocupantes, están normalizados en algunas familias con frases como: “Mi abuelo y mi padre trabajaron desde los 10 años, ahora te toca a ti; deja la escuela y ponte a trabajar”.
+			
+			Basándonos en datos de diversas fuentes oficiales en México, observamos que aproximadamente el 88\% de los trabajadores son hombres, con un salario promedio de \$3,030 mensuales, lo cual es bajo considerando las largas jornadas laborales. Por otro lado, el 12\% restante son mujeres, con un salario promedio de\$3,490 mensuales, trabajando alrededor de 37.7 horas a la semana en ambos casos.
+			
+			No obstante, consideramos necesario profundizar más en esta investigación, realizando trabajo de campo mediante encuestas y otras técnicas para obtener datos más detallados y precisos.
+			\newpage
+			\begin{center}
+				{\huge \textbf{POSIBLES SOLUCIONES TEMPRANAS}}
+			\end{center}
+			\vspace{1cm} 
+			{\large %
+		Hemos encontrado una posible solución temprana junto con varias ideas, las cuales mencionamos a continuación:
+		
+		Creación de una aplicación móvil:
+		Hemos analizado mucha técnica, estadística y datos variados, pero es importante recordar que este proyecto está dirigido a personas que, en muchos casos, solo han terminado la educación primaria. Por ello, la aplicación debe ser sencilla, ya que no se espera que los usuarios cuenten con computadoras potentes para filtrar grandes volúmenes de datos.
+		
+		Chat de voz:
+		Considerando que la mayoría de las personas que trabajan en la cosecha presentan dificultades para leer o escuchar con claridad, la aplicación incluiría un chat de voz sencillo que permita comunicar las estadísticas de manera clara y accesible.
+		
+		Creación de un sistema de riego y cultivo:
+		Proponemos un sistema de riego sencillo que utilice vaporizadores, los cuales consumen poca energía y atomizan el agua eficientemente. Este sistema se complementaría con ventiladores para distribuir la humedad de manera uniforme, evitando la sobrehumectación en las zonas donde se genera vapor.
+		
+		Sistema de almacenamiento de agua ante lluvias intensas:
+		Este punto aún está en desarrollo. Consideramos que, debido a la variabilidad en las lluvias y la disponibilidad de agua —ya sea por sequías naturales o escasez en diversas regiones— es necesario diseñar un sistema que permita filtrar, vitaminizar y purificar el agua para su uso agrícola. El sistema de humidificadores también es relevante, ya que la humedad puede ayudar a las plantas mediante la aplicación de vitaminas, pesticidas y fertilizantes, además de protegerlas del sol directo, especialmente cuando el clima cambia bruscamente.
+		
+		Integración de la aplicación con los sistemas físicos:
+		La aplicación podría consultar diversas fuentes de información y actualizarse según las condiciones de clima, humedad y estadísticas diarias. Además, se podría vincular con el sistema de almacenamiento de agua, humidificadores y ventilación, permitiendo activar el sistema de riego con un solo botón en caso de fallas o para facilitar la siembra.
+		
+		Creación de una página web:
+		Para incluir a la comunidad que ha sido excluida por la tecnología, se propone desarrollar una página web destinada a producciones con mayores recursos y presupuestos, ampliando así el alcance del proyecto.
+		
+		Almacenamiento sencillo de agua con dos métodos diferentes:
+		
+		Pozo con desviación de agua:
+		Se construiría un pozo que desvíe el agua para evitar derrumbes y pérdidas. El agua pasaría por un filtro de rejilla metálica para retener suciedad, animales o personas arrastradas.
+		
+		Desviación con filtro natural:
+		Similar al método anterior, pero con un filtro más extenso y natural, utilizando diferentes tamaños de rocas en secciones escalonadas que limpien el agua antes de su posible uso. Esta agua podría almacenarse en
+		
+		
+		
+		
+	
+	\newpage
+	\begin{center}
+		{\huge \textbf{FUENTES CONSULTADAS}}
+	\end{center}
+	\vspace{1cm} 
+	{\large %
+		Las fuentes consultadas son varias, tanto en pdf, como experiencias personales, vídeos descriptivos, estos últimos han sido de mucha ayuda ya que encontramos una serie de vídeos que enseñan desde la siembra de semilla, cortar los primeros brotes y como sembrarlos, métodos de preparación de tierras, como se cultivan, cosechan limpian y venden.
+		Hablan también desde perspectivas, ya sea la venta, problemas sociales desde las perspectivas de los cultivadores, precios y acciones que se han tomado, junto con pérdidas y ganancias. 
+	\section*{Fuentes Consultadas}
+	
+Las fuentes consultadas para este proyecto son variadas e incluyen documentos en formato PDF, experiencias personales y videos descriptivos. Estos últimos han resultado especialmente útiles, ya que proporcionan una serie de materiales visuales que ilustran desde la siembra de la semilla, el corte de los primeros brotes, los métodos de preparación del terreno, hasta el cultivo, la cosecha, la limpieza y la comercialización del producto.
+
+Asimismo, se abordan diversas perspectivas, tales como aspectos relacionados con la venta, problemáticas sociales desde el punto de vista de los cultivadores, precios, acciones implementadas, así como pérdidas y ganancias.
+	
+	\begin{itemize}
+		\item Canal de TIBSITA en YouTube, que muestra el proceso completo desde la siembra de semillas, tiempo de cosecha, proceso de limpieza y comenta situaciones sociales relacionadas con precios y otros aspectos.  
+		\url{https://www.youtube.com/@TISBITA/playlists}
+		
+		\item Universidad de Sonora. \textit{Cultivo de cebolla} [PDF].
+		
+		\item Navarro, C. (compañero que siembra cebolla en casa).
+		
+		\item Agroclimatología y Agrometeorología [PDF].
+		
+		\item Guía para producción de cebolla en Zacatecas.
+		
+		\item Comisión Nacional del Agua (CONAGUA). Resúmenes mensuales de temperatura y lluvias.
+		
+		\item Gobierno del Estado de Chihuahua. Prensa y reportes oficiales.
+		
+		\item Instituto Nacional de Ecología y Cambio Climático (INECC). \textit{Cambio climático en México y la vulnerabilidad de Chihuahua ante este fenómeno}.
+		
+		\item Weather Spark. Histórico detallado del clima en Chihuahua.
+		
+		\item Centro de Ciencias de la Atmósfera, UNAM (CAACS). Estado y perspectivas del cambio climático.
+		
+		\item Meteored. Clima por hora en Chihuahua.  
+		\url{https://www.meteored.mx/chihuahua/por-hora?hl=es-MX}
+		
+		\item Pausa. Estaciones meteorológicas en zonas agrícolas.  
+		\url{https://pausa.mx/opera-sdr-30-estaciones-meteorologicas-en-zonas-agricolas/?hl=es-MX}
+		
+		\item AccuWeather. Pronóstico del tiempo en Chihuahua.  
+		\url{https://www.accuweather.com/es/mx/chihuahua/242375/weather-forecast/242375?hl=es-MX}
+		
+		\item Nunhems México. Micrositio sobre cultivo de cebollas.  
+		\url{https://www.nunhems.com/mx/es/microsites/Cebollas?hl=es-MX}
+		
+		\item Produce Chihuahua. Información sobre producción agrícola.  
+		\url{https://www.producechihuahua.org/?hl=es-MX}
+		
+		\item Video explicativo sobre cultivo de cebolla.  
+		\url{https://youtu.be/wrPgbGKCU10?si=zoSEiO8ZeSYlCLBa}
+	\end{itemize}
+	
+	\bigskip
+	
+	\noindent
+	\textbf{Referencias en formato APA 7:}
+	
+	\begin{itemize}
+		\item Comisión Nacional del Agua (CONAGUA). (s.f.). Resúmenes mensuales de temperatura y lluvias. Recuperado de \url{https://www.gob.mx/conagua}
+		
+		\item Gobierno del Estado de Chihuahua. (s.f.). Prensa y reportes oficiales. Recuperado de \url{https://www.chihuahua.gob.mx}
+		
+		\item Instituto Nacional de Ecología y Cambio Climático (INECC). (s.f.). Cambio climático en México y la vulnerabilidad de Chihuahua ante este fenómeno. Recuperado de \url{https://www.gob.mx/inecc}
+		
+		\item Meteored. (s.f.). Clima por hora en Chihuahua. Recuperado de \url{https://www.meteored.mx/chihuahua/por-hora?hl=es-MX}
+		
+		\item Pausa. (s.f.). Opera SDR: 30 estaciones meteorológicas en zonas agrícolas. Recuperado de \url{https://pausa.mx/opera-sdr-30-estaciones-meteorologicas-en-zonas-agricolas/?hl=es-MX}
+		
+		\item AccuWeather. (s.f.). Pronóstico del tiempo en Chihuahua. Recuperado de \url{https://www.accuweather.com/es/mx/chihuahua/242375/weather-forecast/242375?hl=es-MX}
+		
+		\item Nunhems México. (s.f.). Micrositio sobre cultivo de cebollas. Recuperado de \url{https://www.nunhems.com/mx/es/microsites/Cebollas?hl=es-MX}
+		
+		\item Produce Chihuahua. (s.f.). Información sobre producción agrícola. Recuperado de \url{https://www.producechihuahua.org/?hl=es-MX}
+		
+		\item TIBSITA. (s.f.). Canal de YouTube. Recuperado de \url{https://www.youtube.com/@TISBITA/playlists}
+		
+		\item Video explicativo sobre cultivo de cebolla. (s.f.). Recuperado de \url{https://youtu.be/wrPgbGKCU10?si=zoSEiO8ZeSYlCLBa}
+	\end{itemize}
+	
+	\end{document}
+
